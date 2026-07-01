@@ -88,42 +88,42 @@
 
 ## 📁 插件结构
 
-elysia_dice/\n
-├── plugin.py # 插件入口\n
-├── config.py\n
-├── manifest.json # 识别插件的关键文件\n
-├── commands/\n
-│ ├── help_command.py # /帮助\n
-│ ├── sign_command.py # /签到 /花花 /排行\n
-│ ├── shop_command.py # /商店 /购买 /抽奖\n
-│ ├── query_command.py # /查询\n
-│ ├── favor_command.py # /背包 /好感度 /赠送\n
-│ ├── transfer_command.py # /转让\n
-│ ├── crystal_command.py # /水晶 /获取水晶\n
-│ ├── supply_command.py # 各补给命令\n
-│ ├── valkyrie_command.py # 女武神命令\n
-│ ├── today_groupmate_command.py # /今日群友 /结婚\n
-│ └── dev_command.py # /set /elyset\n
-├── handlers/\n
-│ ├── __init__.py\n
-│ ├── message.py\n
-│ ├── sign.py\n
-│ ├── currency.py\n
-│ ├── shop.py\n
-│ ├── favor.py\n
-│ ├── crystal.py\n
-│ ├── supply_pool.py\n
-│ ├── gacha_handler.py\n
-│ ├── valkyrie_handler.py\n
-│ ├── marriage_manager.py\n
-│ ├── groupmate_handler.py\n
-│ ├── member_collector.py\n
-│ ├── auto_record.py\n
-│ └── dev_tools.py\n
-└── data/\n
-  ├── gacha_pools.py\n
-  └── valkyrie_data.py\n
-└── elysia_dice/ # 数据存储目录（自动创建）\n
+elysia_dice/
+├── plugin.py # 插件入口
+├── config.py
+├── manifest.json # 识别插件的关键文件
+├── commands/
+│ ├── help_command.py # /帮助
+│ ├── sign_command.py # /签到 /花花 /排行
+│ ├── shop_command.py # /商店 /购买 /抽奖
+│ ├── query_command.py # /查询
+│ ├── favor_command.py # /背包 /好感度 /赠送
+│ ├── transfer_command.py # /转让
+│ ├── crystal_command.py # /水晶 /获取水晶
+│ ├── supply_command.py # 各补给命令
+│ ├── valkyrie_command.py # 女武神命令
+│ ├── today_groupmate_command.py # /今日群友 /结婚
+│ └── dev_command.py # /set /elyset
+├── handlers/
+│ ├── __init__.py
+│ ├── message.py
+│ ├── sign.py
+│ ├── currency.py
+│ ├── shop.py
+│ ├── favor.py
+│ ├── crystal.py
+│ ├── supply_pool.py
+│ ├── gacha_handler.py
+│ ├── valkyrie_handler.py
+│ ├── marriage_manager.py
+│ ├── groupmate_handler.py
+│ ├── member_collector.py
+│ ├── auto_record.py
+│ └── dev_tools.py
+└── data/
+  ├── gacha_pools.py
+  └── valkyrie_data.py
+└── elysia_dice/ # 数据存储目录（自动创建）
 
 
 ---

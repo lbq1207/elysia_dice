@@ -55,7 +55,13 @@ class FavorManager:
     @property
     def data(self) -> dict:
         if self._data is None:
-            self._data = _load()
+            try:
+                self._data = _load()
+            except Exception as e:
+                logger.error(f"加载好感度数据失败: {e}")
+                self._data = {}
+        if not isinstance(self._data, dict):
+            self._data = {}
         return self._data
 
     def _save(self):

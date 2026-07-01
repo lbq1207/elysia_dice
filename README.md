@@ -88,6 +88,7 @@
 
 ## 📁 插件结构
 
+```
 elysia_dice/
 ├── plugin.py # 插件入口
 ├── config.py
@@ -124,7 +125,7 @@ elysia_dice/
   ├── gacha_pools.py
   └── valkyrie_data.py
 └── elysia_dice/ # 数据存储目录（自动创建）
-
+```
 
 ---
 

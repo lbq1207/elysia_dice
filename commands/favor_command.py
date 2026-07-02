@@ -35,12 +35,12 @@ class FavorCommand(BaseCommand):
 
     def _favor_msg(self, f: int) -> str:
         if f >= 520: return "💖 你永远喜欢爱莉希雅！"
-        if f >= 320: return "💕 爱莉永远喜欢你~"
-        if f >= 160: return "💗 爱莉很喜欢你！"
-        if f >= 80:  return "💓 对你很有好感~"
-        if f >= 30:  return "💝 开始注意到你了~"
-        if f > 0:    return "💌 初次见面~"
-        return "🌱 还没有好感度记录"
+        if f >= 320: return "💕 爱莉希雅永远喜欢你~"
+        if f >= 160: return "💗 爱莉希雅很喜欢你！"
+        if f >= 80:  return "💓 爱莉希雅对你很有好感~"
+        if f >= 30:  return "💝 爱莉希雅开始注意到你了~"
+        if f > 0:    return "💌 初次见面，请多关照~"
+        return "🌱 还没有好感度记录哦~\n发送 /赠送 <物品> 提升爱莉对你的好感吧！"
 
 
 class RankCommand(BaseCommand):
